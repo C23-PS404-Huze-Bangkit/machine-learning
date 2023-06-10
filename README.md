@@ -22,6 +22,8 @@ Here is the Dataset and Converted Model File Link that we have processed :
 4. We chose Xception as the base model and added a CNN layer to the last layer of its architecture. This decision was based on accuracy on the testing data reaching 0.842 (84.2%), with the training model achieving an accuracy of 0.8510 (85.1%) and the validation accuracy reaching 0.8400 (84%). Compared to models such as just CNN, MobileNet_v2, InceptionV3, and ResNet, this model demonstrated superior performance. 
   * [Notebook Xception](https://github.com/C23-PS404-Huze-Bangkit/machine-learning/blob/main/Xception-datasetfix.ipynb) 
   * [Model Results in H5 and tflite formats](https://drive.google.com/drive/folders/1vQEcVZ4Yh1R-K-twZ9bH-J_mYdZwHGF9?usp=sharing) 
+5. In the end we will use a model with h5 or hdf5 format files and will be placed on the back-end not built in android, the model is run on the cloud run with the flask framework. 
+  * [Sample code that will be converted by CC cohort so that it can be put on the backend](https://github.com/C23-PS404-Huze-Bangkit/machine-learning/blob/main/backend_modelml_h5.py)
 
 # Prerequisites
 Here are the technologies you should install if you are using Jupyter-notebook. If you're using Google Colab you don't need to install it just import the libraries. Because We have a capable GPU so we use jupyter-notebook and have to install this library.
@@ -55,8 +57,6 @@ Here are the technologies you should install if you are using Jupyter-notebook. 
 * inceptionv3
 * RestNet
 * Xception
-
-
 
 # Notes 
 We uploaded the dataset and Converted Model File via gdrive due to limited space on github only maximizing 100MB or efficiency of only 50MB per file.
