@@ -1,5 +1,5 @@
 # File untuk dikonversi menjadi model backend pengenalan gambar untuk dilakukan menggunakan flask dan dijalankan di cloudrun
-# diperlukan pip install tensorflow and numpy
+# diperlukan pip install tensorflow, keras, pillow, and numpy
 #!/usr/bin/env python
 # coding: utf-8
 
